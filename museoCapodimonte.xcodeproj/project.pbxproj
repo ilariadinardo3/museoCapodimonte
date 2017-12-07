@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9863D4C1FD9436E00562F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9863D4B1FD9436E00562F01 /* AppDelegate.swift */; };
+		C9863D4E1FD9436E00562F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9863D4D1FD9436E00562F01 /* ViewController.swift */; };
+		C9863D511FD9436E00562F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9863D4F1FD9436E00562F01 /* Main.storyboard */; };
+		C9863D531FD9436E00562F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9863D521FD9436E00562F01 /* Assets.xcassets */; };
+		C9863D561FD9436E00562F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9863D541FD9436E00562F01 /* LaunchScreen.storyboard */; };
+		C9863D611FD9436E00562F01 /* museoCapodimonteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9863D601FD9436E00562F01 /* museoCapodimonteTests.swift */; };
+		C9863D6C1FD9436F00562F01 /* museoCapodimonteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9863D6B1FD9436F00562F01 /* museoCapodimonteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9863D5D1FD9436E00562F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9863D401FD9436E00562F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9863D471FD9436E00562F01;
+			remoteInfo = museoCapodimonte;
+		};
+		C9863D681FD9436E00562F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9863D401FD9436E00562F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9863D471FD9436E00562F01;
+			remoteInfo = museoCapodimonte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9863D481FD9436E00562F01 /* museoCapodimonte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = museoCapodimonte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9863D4B1FD9436E00562F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9863D4D1FD9436E00562F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9863D501FD9436E00562F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9863D521FD9436E00562F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9863D551FD9436E00562F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9863D571FD9436E00562F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9863D5C1FD9436E00562F01 /* museoCapodimonteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = museoCapodimonteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9863D601FD9436E00562F01 /* museoCapodimonteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = museoCapodimonteTests.swift; sourceTree = "<group>"; };
+		C9863D621FD9436E00562F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9863D671FD9436E00562F01 /* museoCapodimonteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = museoCapodimonteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9863D6B1FD9436F00562F01 /* museoCapodimonteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = museoCapodimonteUITests.swift; sourceTree = "<group>"; };
+		C9863D6D1FD9436F00562F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9863D451FD9436E00562F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9863D591FD9436E00562F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9863D641FD9436E00562F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9863D3F1FD9436E00562F01 = {
+			isa = PBXGroup;
+			children = (
+				C9863D4A1FD9436E00562F01 /* museoCapodimonte */,
+				C9863D5F1FD9436E00562F01 /* museoCapodimonteTests */,
+				C9863D6A1FD9436E00562F01 /* museoCapodimonteUITests */,
+				C9863D491FD9436E00562F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9863D491FD9436E00562F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9863D481FD9436E00562F01 /* museoCapodimonte.app */,
+				C9863D5C1FD9436E00562F01 /* museoCapodimonteTests.xctest */,
+				C9863D671FD9436E00562F01 /* museoCapodimonteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9863D4A1FD9436E00562F01 /* museoCapodimonte */ = {
+			isa = PBXGroup;
+			children = (
+				C9863D4B1FD9436E00562F01 /* AppDelegate.swift */,
+				C9863D4D1FD9436E00562F01 /* ViewController.swift */,
+				C9863D4F1FD9436E00562F01 /* Main.storyboard */,
+				C9863D521FD9436E00562F01 /* Assets.xcassets */,
+				C9863D541FD9436E00562F01 /* LaunchScreen.storyboard */,
+				C9863D571FD9436E00562F01 /* Info.plist */,
+			);
+			path = museoCapodimonte;
+			sourceTree = "<group>";
+		};
+		C9863D5F1FD9436E00562F01 /* museoCapodimonteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9863D601FD9436E00562F01 /* museoCapodimonteTests.swift */,
+				C9863D621FD9436E00562F01 /* Info.plist */,
+			);
+			path = museoCapodimonteTests;
+			sourceTree = "<group>";
+		};
+		C9863D6A1FD9436E00562F01 /* museoCapodimonteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9863D6B1FD9436F00562F01 /* museoCapodimonteUITests.swift */,
+				C9863D6D1FD9436F00562F01 /* Info.plist */,
+			);
+			path = museoCapodimonteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9863D471FD9436E00562F01 /* museoCapodimonte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9863D701FD9436F00562F01 /* Build configuration list for PBXNativeTarget "museoCapodimonte" */;
+			buildPhases = (
+				C9863D441FD9436E00562F01 /* Sources */,
+				C9863D451FD9436E00562F01 /* Frameworks */,
+				C9863D461FD9436E00562F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = museoCapodimonte;
+			productName = museoCapodimonte;
+			productReference = C9863D481FD9436E00562F01 /* museoCapodimonte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9863D5B1FD9436E00562F01 /* museoCapodimonteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9863D731FD9436F00562F01 /* Build configuration list for PBXNativeTarget "museoCapodimonteTests" */;
+			buildPhases = (
+				C9863D581FD9436E00562F01 /* Sources */,
+				C9863D591FD9436E00562F01 /* Frameworks */,
+				C9863D5A1FD9436E00562F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9863D5E1FD9436E00562F01 /* PBXTargetDependency */,
+			);
+			name = museoCapodimonteTests;
+			productName = museoCapodimonteTests;
+			productReference = C9863D5C1FD9436E00562F01 /* museoCapodimonteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9863D661FD9436E00562F01 /* museoCapodimonteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9863D761FD9436F00562F01 /* Build configuration list for PBXNativeTarget "museoCapodimonteUITests" */;
+			buildPhases = (
+				C9863D631FD9436E00562F01 /* Sources */,
+				C9863D641FD9436E00562F01 /* Frameworks */,
+				C9863D651FD9436E00562F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9863D691FD9436E00562F01 /* PBXTargetDependency */,
+			);
+			name = museoCapodimonteUITests;
+			productName = museoCapodimonteUITests;
+			productReference = C9863D671FD9436E00562F01 /* museoCapodimonteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9863D401FD9436E00562F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ilaria Di Nardo";
+				TargetAttributes = {
+					C9863D471FD9436E00562F01 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C9863D5B1FD9436E00562F01 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9863D471FD9436E00562F01;
+					};
+					C9863D661FD9436E00562F01 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9863D471FD9436E00562F01;
+					};
+				};
+			};
+			buildConfigurationList = C9863D431FD9436E00562F01 /* Build configuration list for PBXProject "museoCapodimonte" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9863D3F1FD9436E00562F01;
+			productRefGroup = C9863D491FD9436E00562F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9863D471FD9436E00562F01 /* museoCapodimonte */,
+				C9863D5B1FD9436E00562F01 /* museoCapodimonteTests */,
+				C9863D661FD9436E00562F01 /* museoCapodimonteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9863D461FD9436E00562F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9863D561FD9436E00562F01 /* LaunchScreen.storyboard in Resources */,
+				C9863D531FD9436E00562F01 /* Assets.xcassets in Resources */,
+				C9863D511FD9436E00562F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9863D5A1FD9436E00562F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9863D651FD9436E00562F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9863D441FD9436E00562F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9863D4E1FD9436E00562F01 /* ViewController.swift in Sources */,
+				C9863D4C1FD9436E00562F01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9863D581FD9436E00562F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9863D611FD9436E00562F01 /* museoCapodimonteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9863D631FD9436E00562F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9863D6C1FD9436F00562F01 /* museoCapodimonteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9863D5E1FD9436E00562F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9863D471FD9436E00562F01 /* museoCapodimonte */;
+			targetProxy = C9863D5D1FD9436E00562F01 /* PBXContainerItemProxy */;
+		};
+		C9863D691FD9436E00562F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9863D471FD9436E00562F01 /* museoCapodimonte */;
+			targetProxy = C9863D681FD9436E00562F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9863D4F1FD9436E00562F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9863D501FD9436E00562F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9863D541FD9436E00562F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9863D551FD9436E00562F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9863D6E1FD9436F00562F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9863D6F1FD9436F00562F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9863D711FD9436F00562F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = museoCapodimonte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ilaria.museoCapodimonte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9863D721FD9436F00562F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = museoCapodimonte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ilaria.museoCapodimonte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9863D741FD9436F00562F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = museoCapodimonteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ilaria.museoCapodimonteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/museoCapodimonte.app/museoCapodimonte";
+			};
+			name = Debug;
+		};
+		C9863D751FD9436F00562F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = museoCapodimonteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ilaria.museoCapodimonteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/museoCapodimonte.app/museoCapodimonte";
+			};
+			name = Release;
+		};
+		C9863D771FD9436F00562F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = museoCapodimonteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ilaria.museoCapodimonteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = museoCapodimonte;
+			};
+			name = Debug;
+		};
+		C9863D781FD9436F00562F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = museoCapodimonteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ilaria.museoCapodimonteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = museoCapodimonte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9863D431FD9436E00562F01 /* Build configuration list for PBXProject "museoCapodimonte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9863D6E1FD9436F00562F01 /* Debug */,
+				C9863D6F1FD9436F00562F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9863D701FD9436F00562F01 /* Build configuration list for PBXNativeTarget "museoCapodimonte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9863D711FD9436F00562F01 /* Debug */,
+				C9863D721FD9436F00562F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9863D731FD9436F00562F01 /* Build configuration list for PBXNativeTarget "museoCapodimonteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9863D741FD9436F00562F01 /* Debug */,
+				C9863D751FD9436F00562F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9863D761FD9436F00562F01 /* Build configuration list for PBXNativeTarget "museoCapodimonteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9863D771FD9436F00562F01 /* Debug */,
+				C9863D781FD9436F00562F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9863D401FD9436E00562F01 /* Project object */;
+}
